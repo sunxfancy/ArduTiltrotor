@@ -1,0 +1,1764 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sp",
+				"speed_factor"
+			],
+			[
+				"write",
+				"write_code"
+			],
+			[
+				"bloc",
+				"block"
+			],
+			[
+				"par",
+				"parameters"
+			],
+			[
+				"def",
+				"definelist"
+			],
+			[
+				"const",
+				"constdef"
+			],
+			[
+				"asn",
+				"answers"
+			],
+			[
+				"sch",
+				"school"
+			],
+			[
+				"sum",
+				"sumstudents"
+			],
+			[
+				"s_id",
+				"school_id"
+			],
+			[
+				"s",
+				"students  (variable)"
+			],
+			[
+				"scho",
+				"schools"
+			],
+			[
+				"schoo",
+				"school_id"
+			],
+			[
+				"find",
+				"findFirst"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"getM",
+				"getMessage"
+			],
+			[
+				"province",
+				"province-name"
+			],
+			[
+				"using",
+				"using namespace	using"
+			],
+			[
+				"des",
+				"destroy	\\$destroy"
+			],
+			[
+				"a",
+				"area3  (variable)"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"use",
+				"usecdn"
+			],
+			[
+				"ass",
+				"assets"
+			],
+			[
+				"ma",
+				"managerlogin"
+			],
+			[
+				"ans",
+				"answers"
+			],
+			[
+				"cur",
+				"curquestions  (variable)"
+			],
+			[
+				"test",
+				"test_id"
+			],
+			[
+				"stu",
+				"students"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"na",
+				"nativeplace  (variable)"
+			],
+			[
+				"ctype",
+				"ctype_digit"
+			],
+			[
+				"php",
+				"phpinfo  (function)"
+			],
+			[
+				"man",
+				"manager"
+			],
+			[
+				"user",
+				"username  (variable)"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"reset",
+				"resetpassword"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"set",
+				"settings"
+			],
+			[
+				"fr",
+				"fromName"
+			],
+			[
+				"dis",
+				"district"
+			],
+			[
+				"f_",
+				"factor_id"
+			],
+			[
+				"f",
+				"f	Anonymous Function"
+			],
+			[
+				"btn-p",
+				"btn-purple"
+			],
+			[
+				"isn",
+				"is_null"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"encode",
+				"json_encode"
+			],
+			[
+				"echo",
+				"echo	echo \"…\""
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"ex",
+				"exception"
+			],
+			[
+				"p",
+				"pData"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"cla",
+				"class	class-..-(class)"
+			],
+			[
+				"w",
+				"wchar_t"
+			],
+			[
+				"l",
+				"lammin	Lambda - Minimal"
+			],
+			[
+				"cals",
+				"class_	class"
+			],
+			[
+				"sec",
+				"sectionId"
+			],
+			[
+				"section",
+				"section_id"
+			],
+			[
+				"type",
+				"typeId"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"mess",
+				"message"
+			],
+			[
+				"key",
+				"key_new"
+			],
+			[
+				"submit",
+				"submit_data"
+			],
+			[
+				"root",
+				"root_size"
+			],
+			[
+				"dd-h",
+				"dd-handle-hover"
+			],
+			[
+				"dd",
+				"dd-handle"
+			],
+			[
+				"is_nu",
+				"is_numeric"
+			],
+			[
+				"rela",
+				"relationship"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"relat",
+				"relation"
+			],
+			[
+				"real",
+				"relationship  (variable)"
+			],
+			[
+				"con",
+				"conditions"
+			],
+			[
+				"gr",
+				"group_id  (variable)"
+			],
+			[
+				"group",
+				"group_id"
+			],
+			[
+				"grou",
+				"group_ids  (variable)"
+			],
+			[
+				"id",
+				"item_id  (variable)"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"Sur",
+				"SurveySample  (class)"
+			],
+			[
+				"item",
+				"item_id"
+			],
+			[
+				"new",
+				"new_record"
+			],
+			[
+				"auth_gr",
+				"auth_group"
+			],
+			[
+				"S",
+				"_SESSION  (variable)"
+			],
+			[
+				"User",
+				"User_ext"
+			],
+			[
+				"assertT",
+				"assertTrue  (function)"
+			],
+			[
+				"vali",
+				"validate"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"th",
+				"this  (variable)"
+			],
+			[
+				"_Se",
+				"_SESSION  (variable)"
+			],
+			[
+				"font",
+				"font"
+			],
+			[
+				"font-si",
+				"font-size:   (property)"
+			],
+			[
+				"ar",
+				"article"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"main",
+				"main_wb"
+			],
+			[
+				"_t",
+				"_this"
+			],
+			[
+				"len",
+				"len_s"
+			],
+			[
+				"map",
+				"map_default"
+			],
+			[
+				"nex",
+				"nextState"
+			],
+			[
+				"str",
+				"struct	struct"
+			],
+			[
+				"pri",
+				"printf	printf …"
+			],
+			[
+				"Ve",
+				"Create_vector"
+			],
+			[
+				"temp",
+				"temp_input"
+			],
+			[
+				"my",
+				"mysqli  (class)"
+			],
+			[
+				"mys",
+				"mysql_connect"
+			],
+			[
+				"ifx",
+				"ifx_close"
+			],
+			[
+				"Error",
+				"Error_A"
+			],
+			[
+				"creat",
+				"Create_vector"
+			],
+			[
+				"Free",
+				"Free_state"
+			],
+			[
+				"Erro",
+				"Error_state"
+			],
+			[
+				"Err",
+				"Error_const"
+			],
+			[
+				"stat",
+				"state_const"
+			],
+			[
+				"sta",
+				"state"
+			],
+			[
+				"stt",
+				"state"
+			],
+			[
+				"wor",
+				"word_len"
+			],
+			[
+				"Ansa",
+				"Analysis"
+			],
+			[
+				"inc",
+				"inc	#include \"…\""
+			],
+			[
+				"stur",
+				"struct_	struct"
+			],
+			[
+				"ife",
+				"ifelifpre	#if … #elif … #else"
+			],
+			[
+				"this",
+				"_this-"
+			],
+			[
+				"sex",
+				"_sex"
+			],
+			[
+				"im",
+				"imt	import junit.framework.TestCase;"
+			],
+			[
+				"gre",
+				"greet-replay"
+			],
+			[
+				"fro",
+				"for	For Loop"
+			],
+			[
+				"fu",
+				"functor	Functor"
+			],
+			[
+				"viewcom",
+				"view_run_command	view.run_command"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "ArduTiltrotor.pde",
+			"settings":
+			{
+				"buffer_size": 57768,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/sxf/桌面/致开课吧团队",
+			"settings":
+			{
+				"buffer_size": 2471,
+				"line_ending": "Unix",
+				"name": "致开课吧团队"
+			}
+		},
+		{
+			"contents": "#To:wangaoxinplus@163.com\n#Subject:Lalala\n#Context:Lalala~\n		From sxf\n",
+			"settings":
+			{
+				"buffer_size": 70,
+				"line_ending": "Unix",
+				"name": "#To:wangaoxinplus@163.com"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++.sublime-build",
+	"command_palette":
+	{
+		"height": 477.0,
+		"selected_items":
+		[
+			[
+				"email",
+				"Send Email"
+			],
+			[
+				"matl",
+				"SublimeREPL: Matlab"
+			],
+			[
+				"mat",
+				"SublimeREPL: Matlab"
+			],
+			[
+				"matlab",
+				"SublimeREPL: Matlab"
+			],
+			[
+				"set",
+				"Set Syntax: OCamlyacc"
+			],
+			[
+				"set C",
+				"Set Syntax: C++"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set yyacc",
+				"Set Syntax: OCamlyacc"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"view",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"set mar",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"set makr",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set mark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"set lua",
+				"Set Syntax: Lua"
+			],
+			[
+				"set python",
+				"Set Syntax: Python"
+			],
+			[
+				"setn",
+				"Set Syntax: (LilyPond note mode)"
+			],
+			[
+				"set C+",
+				"Set Syntax: C++11"
+			],
+			[
+				"toggle li",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"set +C",
+				"Set Syntax: C++11"
+			],
+			[
+				"diasble",
+				"Package Control: Disable Package"
+			],
+			[
+				"diable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"set C++",
+				"Set Syntax: C++11"
+			],
+			[
+				"run",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"set CM",
+				"Set Syntax: CMake"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Email",
+				"Email"
+			],
+			[
+				"snipp",
+				"SnippetManger: NewSnippet"
+			],
+			[
+				"python",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"py",
+				"SublimeREPL: Python - execnet"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Function"
+			],
+			[
+				"Package Control: disable ",
+				"Package Control: Disable Package"
+			],
+			[
+				"set c",
+				"Set Syntax: C++"
+			],
+			[
+				"setc",
+				"Set Syntax: C++"
+			],
+			[
+				"gitgui",
+				"Git: Gui"
+			],
+			[
+				"gitgu",
+				"Git: Gui"
+			],
+			[
+				"git",
+				"Git: Pull"
+			],
+			[
+				"pc",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"set php",
+				"Set Syntax: PHP"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"set vo",
+				"Set Syntax: HTML (Volt)"
+			],
+			[
+				"shell",
+				"SublimeREPL: Shell"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"set html ",
+				"Set Syntax: HTML"
+			],
+			[
+				"setphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"set shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"new",
+				"NewBlog"
+			],
+			[
+				"set c++",
+				"Set Syntax: C++"
+			],
+			[
+				"gitcomm",
+				"Git: Commit"
+			],
+			[
+				"gitadd",
+				"Git: Add..."
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"setht",
+				"Set Syntax: HTML"
+			],
+			[
+				"setvol",
+				"Set Syntax: HTML (Volt)"
+			],
+			[
+				"setvo",
+				"Set Syntax: HTML (Volt)"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"setph",
+				"Set Syntax: PHP"
+			],
+			[
+				"pyto",
+				"SublimeREPL: Python"
+			],
+			[
+				"set md",
+				"Set Syntax: Markdown"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disba",
+				"Package Control: Disable Package"
+			],
+			[
+				"setC",
+				"Set Syntax: C"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"diasb",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"diabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"dia",
+				"Package Control: Disable Package"
+			],
+			[
+				"diab",
+				"Package Control: Disable Package"
+			],
+			[
+				"disabe",
+				"Package Control: Disable Package"
+			],
+			[
+				"disb",
+				"Package Control: Disable Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"setxml",
+				"Set Syntax: XML"
+			],
+			[
+				"lista",
+				"Package Control: List Packages"
+			],
+			[
+				"ab",
+				"About"
+			],
+			[
+				"installpackage",
+				"Package Control: Install Package"
+			],
+			[
+				"set omg",
+				"Set Syntax: orgmode"
+			],
+			[
+				"rename",
+				"ANF: Rename File"
+			],
+			[
+				"setmark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"setjava",
+				"Set Syntax: Java"
+			],
+			[
+				"rena",
+				"ANF: Rename File"
+			],
+			[
+				"show",
+				"ImageShow: Show"
+			],
+			[
+				"image",
+				"ImageShow: Show"
+			],
+			[
+				"newpl",
+				"SnippetManger: NewPlugin"
+			],
+			[
+				"setlat",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"setMark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"re",
+				"ANF: Rename File"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"sette",
+				"Set Syntax: Textile"
+			],
+			[
+				"set latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"render",
+				"Pandoc: Render Markdown to temp HTML and View"
+			],
+			[
+				"renderd",
+				"Pandoc: Render Markdown DocX"
+			],
+			[
+				"rende",
+				"Pandoc: Render Markdown DocX"
+			],
+			[
+				"renderdocx",
+				"Pandoc: Render Markdown DocX"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"set markd",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"set lat",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"adds",
+				"SnippetManger: AddSnippet"
+			],
+			[
+				"addsn",
+				"SnippetManger: AddSnippet"
+			],
+			[
+				"snippetmar",
+				"SnippetManger: NewSnippet"
+			],
+			[
+				"di",
+				"Package Control: Disable Package"
+			],
+			[
+				"clips",
+				"SublimeREPL: CLIPS"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"pyt",
+				"SublimeREPL: Python"
+			],
+			[
+				"clj",
+				"SublimeREPL: Clojure"
+			],
+			[
+				"clo",
+				"SublimeREPL: Clojure-Telnet"
+			],
+			[
+				"clojure",
+				"SublimeREPL: Clojure"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"chat",
+				"SublimeREPL: Chat"
+			],
+			[
+				"Chat",
+				"SublimeREPL: Chat"
+			],
+			[
+				"chaat",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"clisp",
+				"SublimeREPL: Clisp"
+			],
+			[
+				"clis",
+				"SublimeREPL: Clisp"
+			],
+			[
+				"pyth",
+				"SublimeREPL: Python"
+			],
+			[
+				"sava",
+				"File: Save All"
+			],
+			[
+				"shel",
+				"SublimeREPL: Shell"
+			],
+			[
+				"nav",
+				"SuperNavigator: Super Navigate in all tabs"
+			],
+			[
+				"navaiga",
+				"SuperNavigator: Super Navigate"
+			],
+			[
+				"disabll",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"shellc",
+				"Shell Command"
+			]
+		],
+		"width": 610.0
+	},
+	"console":
+	{
+		"height": 765.0,
+		"history":
+		[
+			"print('\\u00e4\\u00b8\\u00b4\\u00e5\\u00ba\\u0160\\u00e5\\u0152\\u00bb\\u00e5\\u00ad\\u00a6\\u00e9\\u2122\\u00a2'.decode(\"UTF-8\"))",
+			"print('\\u00e4\\u00b8\\u00b4\\u00e5\\u00ba\\u0160\\u00e5\\u0152\\u00bb\\u00e5\\u00ad\\u00a6\\u00e9\\u2122\\u00a2'.encode(\"UTF-8\"))",
+			"print('\\u00e4\\u00b8\\u00b4\\u00e5\\u00ba\\u0160\\u00e5\\u0152\\u00bb\\u00e5\\u00ad\\u00a6\\u00e9\\u2122\\u00a2')",
+			"\\u00e4\\u00b8\\u00b4\\u00e5\\u00ba\\u0160\\u00e5\\u0152\\u00bb\\u00e5\\u00ad\\u00a6\\u00e9\\u2122\\u00a2",
+			"new_snippet",
+			"new_plugin",
+			"example",
+			"browser_refresh",
+			"sfe",
+			"SublimePTY",
+			"sublime.status_message(\"发\")",
+			"sublime.status_message(\"发送成功\")",
+			"status_message(\"发送成功\")",
+			"Calculate",
+			"pwd(len)",
+			"i",
+			"(i+1)*10",
+			"i = 10",
+			"i= 1-",
+			"i = 1-",
+			"i => 10",
+			"10*100",
+			"10*10",
+			"shell",
+			"repl_open",
+			"run_existing_window_command",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"install",
+			"import urllib3,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib3.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())",
+			"import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib3.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())",
+			"import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/sxf/data/workspace/Arduino/ardupilot-ArduCopter-stable-apm2/ArduTiltrotor"
+	],
+	"file_history":
+	[
+		"/usr/lib/sublime_text_3/Data/Packages/User/SublimeEmail.sublime-settings",
+		"/home/sxf/data/文档/生命起源",
+		"/home/sxf/data/workspace/Complier/RedApple/src/Model/nodes.h",
+		"/home/sxf/data/workspace/Complier/my_toy_compiler/Makefile",
+		"/home/sxf/data/workspace/Complier/RedApple/src/readapple_parser.y",
+		"/home/sxf/data/workspace/ANN/BPTest/src/BpNet.h",
+		"/home/sxf/data/workspace/ANN/BPTest/src/BpNet.cpp",
+		"/home/sxf/data/文档/软件设计/荒岛求生游戏企划.mdown",
+		"/home/sxf/data/归档/panda/test.py",
+		"/home/sxf/data/归档/panda/ball-in-maze.p3d",
+		"/usr/lib/sublime_text_3/Data/Packages/User/FileHeader.sublime-settings",
+		"/usr/lib/sublime_text_3/Data/Packages/User/Default (Linux).sublime-keymap",
+		"/home/sxf/data/workspace/Complier/LR_parser/includes/BNF.h",
+		"/home/sxf/data/workspace/Complier/LLVM/llvm-3.5.0.src/examples/Fibonacci/Release+Asserts/fibonacci.o",
+		"/home/sxf/data/workspace/Complier/complier.sublime-project",
+		"/home/sxf/data/workspace/Complier/CodeGenerator/CMakeLists.txt",
+		"/home/sxf/data/workspace/Complier/LLVM/llvm-3.5.0.src/lib/Target/Mips/MCTargetDesc/MipsNaClELFStreamer.cpp",
+		"/home/sxf/data/workspace/Complier/LLVM/cfe-3.5.0.src.tar/cfe-3.5.0.src/test/CodeGen/cleanup-stack.c",
+		"/home/sxf/data/workspace/Complier/LLVM/llvm-3.5.0.src/test/Transforms/GlobalOpt/cleanup-pointer-root-users.ll",
+		"/home/sxf/data/workspace/Complier/LR_parser/sources/LRCore.cpp",
+		"/home/sxf/data/workspace/Complier/Lex/include/DFA.h",
+		"/home/sxf/data/workspace/Complier/LLVM/cfe-3.5.0.src.tar/cfe-3.5.0.src/test/Driver/debug-options.c",
+		"/home/sxf/data/workspace/Complier/LLVM/cfe-3.5.0.src.tar/cfe-3.5.0.src/lib/AST/DeclObjC.cpp",
+		"/home/sxf/data/workspace/Complier/PCodeComplier/LR_parser/sources/Item.cpp",
+		"/home/sxf/data/workspace/Complier/Backup/LR_parser 0.2/includes/ItemCollection.h",
+		"/home/sxf/data/workspace/Complier/Backup/LR_parser 0.2/sources/ItemCollection.cpp",
+		"/home/sxf/data/workspace/Complier/PCodeComplier/LR_parser/includes/ItemCollection.h",
+		"/home/sxf/data/workspace/Complier/PCodeComplier/LR_parser/sources/ItemCollection.cpp",
+		"/home/sxf/data/workspace/Complier/LLVM/cfe-3.5.0.src.tar/cfe-3.5.0.src/test/CodeGenCXX/instantiate-temporaries.cpp",
+		"/home/sxf/data/workspace/Complier/LLVM/cfe-3.5.0.src.tar/cfe-3.5.0.src/test/Index/index-templates.cpp",
+		"/home/sxf/data/workspace/Complier/LLVM/cfe-3.5.0.src.tar/cfe-3.5.0.src/test/SemaCXX/invalid-template-specifier.cpp",
+		"/home/sxf/data/workspace/Complier/LLVM/cfe-3.5.0.src.tar/cfe-3.5.0.src/test/SemaTemplate/inject-templated-friend.cpp",
+		"/home/sxf/data/workspace/Complier/LLVM/llvm-3.5.0.src/test/CodeGen/R600/work-item-intrinsics.ll",
+		"/home/sxf/data/workspace/Complier/LLVM/cfe-3.5.0.src.tar/cfe-3.5.0.src/lib/Frontend/Rewrite/RewriteMacros.cpp",
+		"/home/sxf/data/workspace/Complier/PCodeComplier/LR_parser/includes/Item.h",
+		"/home/sxf/data/workspace/Complier/LR_parser/sources/ItemCollection.cpp",
+		"/home/sxf/data/workspace/Complier/LR_parser/includes/ItemCollection.h",
+		"/home/sxf/data/workspace/Complier/Backup/LR_parser 0.2/sources/Item.cpp",
+		"/home/sxf/data/workspace/Complier/Backup/LR_parser 0.2/includes/Item.h",
+		"/home/sxf/data/workspace/Complier/LR_parser/sources/Item.cpp",
+		"/home/sxf/data/workspace/Complier/LR_parser/includes/Item.h",
+		"/home/sxf/data/workspace/Complier/LLVM/cfe-3.5.0.src.tar/cfe-3.5.0.src/include/clang/Sema/TemplateDeduction.h",
+		"/home/sxf/data/workspace/Complier/LLVM/cfe-3.5.0.src.tar/cfe-3.5.0.src/test/CodeGenCXX/incomplete-types.cpp",
+		"/home/sxf/data/workspace/Complier/Lex/Lex.kdev4",
+		"/home/sxf/data/workspace/Complier/LLVM/llvm-3.5.0.src/Release+Asserts/bin/llvm-link",
+		"/home/sxf/data/workspace/Complier/LLVM/llvm-3.5.0.src/test/Bitcode/local-linkage-default-visibility.3.4.ll",
+		"/home/sxf/data/workspace/Complier/LLVM/llvm-3.5.0.src/llvm.spec",
+		"/home/sxf/data/workspace/Complier/LLVM/llvm-3.5.0.src/Release+Asserts/bin/llvm-size",
+		"/home/sxf/data/workspace/Complier/LR_parser/build/a.pc",
+		"/home/sxf/data/workspace/Complier/LR_parser/build/test.txt",
+		"/home/sxf/data/workspace/Complier/LR_parser/build/lrparser.txt",
+		"/home/sxf/data/workspace/Complier/LR_parser/build/init_pcode.lua",
+		"/home/sxf/data/workspace/Complier/Assembler/afx.h",
+		"/mnt/data/workspace/Complier/LR_parser/build/test.pco",
+		"/home/sxf/data/workspace/Complier/VM/build/test.pco",
+		"/home/sxf/data/workspace/Complier/document/运算符号表",
+		"/home/sxf/data/workspace/Complier/LR_parser/build/test.pco",
+		"/home/sxf/data/workspace/Complier/LR_parser/build/lrparser_1~",
+		"/home/sxf/data/workspace/Complier/LR_parser/test/c-1/test.pco",
+		"/home/sxf/data/workspace/Complier/document/中文支持的实现.md",
+		"/home/sxf/data/workspace/Complier/document/VnList",
+		"/home/sxf/data/workspace/Complier/document/项集族",
+		"/home/sxf/data/workspace/Complier/LR_parser/build/lex.txt",
+		"/home/sxf/data/workspace/Complier/VM/build/test.pro",
+		"/home/sxf/data/workspace/Complier/LR_parser/build/test.pro",
+		"/home/sxf/data/workspace/Complier/document/=========== LALR TABLE ==========",
+		"/home/sxf/data/workspace/Complier/VM/VM/afx.h",
+		"/home/sxf/data/workspace/Complier/VM/VM/pcode.cpp",
+		"/home/sxf/data/workspace/Complier/Assembler/main.cpp",
+		"/home/sxf/data/workspace/Complier/LR_parser/includes/BNF_parser.h",
+		"/home/sxf/data/workspace/Complier/LR_parser/sources/LRTable.cpp",
+		"/home/sxf/data/workspace/Complier/LR_parser/includes/LRTable.h",
+		"/home/sxf/data/workspace/Complier/Assembler/test.pcs",
+		"/home/sxf/data/workspace/Complier/LR_parser/includes/LR_parser.h",
+		"/home/sxf/data/workspace/Complier/LR_parser/sources/BNF.cpp",
+		"/home/sxf/data/workspace/Complier/LR_parser/includes/LRCore.h",
+		"/home/sxf/data/workspace/Complier/Assembler/test.pco",
+		"/home/sxf/data/workspace/Complier/document/目前要解决的问题.md",
+		"/home/sxf/data/workspace/Complier/LR_parser/sources/LR_parser.cpp",
+		"/home/sxf/data/workspace/Complier/LR_parser/includes/afx.h",
+		"/home/sxf/data/workspace/Complier/LR_parser/includes/LexInterface.h",
+		"/home/sxf/data/workspace/Complier/LR_parser/sources/Parser.cpp",
+		"/home/sxf/data/workspace/Complier/LR_parser/includes/Parser.h",
+		"/home/sxf/data/workspace/Complier/document/EBNF解析器设计.md",
+		"/home/sxf/data/workspace/Complier/document/LR(0)项集族构建方法.md",
+		"/home/sxf/data/workspace/Complier/LR_parser/includes/Grammer_Node.h",
+		"/home/sxf/data/workspace/Complier/LR_parser/main.cpp",
+		"/home/sxf/data/workspace/Complier/LR_parser/CMakeLists.txt",
+		"/home/sxf/data/workspace/Complier/LR_parser/includes/LALRTable.h",
+		"/home/sxf/data/workspace/Complier/LR_parser/sources/LALRTable.cpp",
+		"/home/sxf/data/workspace/Complier/LR_parser/sources/BNF_parser.cpp",
+		"/usr/lib/sublime_text_3/Data/Packages/User/SublimeLinter.sublime-settings",
+		"/usr/lib/sublime_text_3/Data/Packages/LaTeX-Plus/support/Default (Linux).sublime-mousemap",
+		"/usr/lib/sublime_text_3/Data/Packages/User/Default.sublime-mousemap",
+		"/usr/lib/sublime_text_3/Data/Packages/Jedi - Python autocompletion/Default.sublime-mousemap",
+		"/home/sxf/data/workspace/Python/NewThread/test.py",
+		"/home/sxf/data/workspace/Complier/LR_parser/sources/CMakeLists.txt",
+		"/home/sxf/data/workspace/Complier/LR_parser/sources/ItemCollection",
+		"/home/sxf/桌面/SmartCar/智能小车",
+		"/usr/lib/sublime_text_3/Data/Packages/GoSublime/USAGE.md",
+		"/usr/lib/sublime_text_3/Data/Packages/User/GoSublime.sublime-settings",
+		"/usr/lib/sublime_text_3/Data/Packages/GoSublime/GoSublime.sublime-settings",
+		"/home/sxf/data/workspace/Web/Question/app/controllers/IndexController.php",
+		"/home/sxf/data/workspace/Web/Question/app/views/student/index.volt",
+		"/home/sxf/data/workspace/Web/Question/app/views/admin/dashboard.volt.bk",
+		"/home/sxf/data/workspace/Web/Question/app/controllers/StudentController.php",
+		"/home/sxf/data/workspace/Web/Question/public/js/admin_controller.js",
+		"/D/Program Files/Sublime Text 3/Data/Packages/User/Preferences.sublime-settings",
+		"/D/workspace/Web/Question/app/views/admin/dashboard.volt.bk",
+		"/D/workspace/Web/Question/app/views/layouts/request-layout.volt",
+		"/D/workspace/Web/Question/app/views/layouts/backend-layout.volt",
+		"/D/workspace/Web/Question/app/views/layouts/admin-layout.volt",
+		"/D/workspace/Web/Question/app/views/layouts/index-layout.volt",
+		"/D/workspace/Web/Question/app/views/admin/dashboard.volt",
+		"/home/sxf/桌面/近期工作清单",
+		"/home/sxf/桌面/问题大学",
+		"/home/sxf/data/workspace/Web/YiYueWeb/app/plugins/Security.php",
+		"/usr/lib/sublime_text_3/Data/Packages/GoSublime/CHANGELOG.md",
+		"/home/sxf/data/workspace/Web/Question/app/views/student/survey.volt",
+		"/home/sxf/data/workspace/Web/Question/app/plugins/Security.php",
+		"/home/sxf/data/workspace/Web/Question/app/controllers/ImportController.php",
+		"/home/sxf/data/workspace/Web/Question/app/config/question.sql",
+		"/home/sxf/data/workspace/Web/Question/app/controllers/Base.php",
+		"/home/sxf/data/workspace/Web/Question/app/controllers/AdminController.php",
+		"/home/sxf/data/workspace/Web/Question/app/controllers/StuloginController.php",
+		"/home/sxf/data/workspace/Web/Question/app/controllers/ManagerloginController.php",
+		"/home/sxf/data/workspace/Web/Question/app/controllers/StudentController.php.bk",
+		"/home/sxf/data/workspace/Web/Question/app/views/index/view.volt"
+	],
+	"find":
+	{
+		"height": 47.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"",
+			"regex.c",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<",
+			"Grammer_Node",
+			"\"\n",
+			"end",
+			"t",
+			"opt",
+			"OPT",
+			"LOD",
+			"return",
+			"i",
+			"f",
+			"i",
+			"e",
+			"1",
+			"paramtype",
+			"f",
+			"parameters_calllist",
+			"\")\"",
+			"file",
+			"std",
+			"test",
+			"export",
+			"school_id",
+			"name",
+			"username",
+			"stu_no",
+			"status",
+			"stu_id",
+			"li",
+			"length",
+			"AUTO_INCREMENT=\\d+",
+			"and",
+			"~",
+			"&",
+			"&&",
+			" &&",
+			"!",
+			"json_encode",
+			"collectio",
+			"factorsheet",
+			"question",
+			"grade",
+			"stu",
+			"name",
+			"nativeplace",
+			"modif",
+			"modfi",
+			"username",
+			"email",
+			"export",
+			"modif",
+			"import",
+			"sum",
+			"modif",
+			"edittest",
+			"\n",
+			"\n\n",
+			"\n",
+			"\\n",
+			"url",
+			"next",
+			"manager",
+			"Manager",
+			"manager",
+			"f_id",
+			"int",
+			"ratio",
+			"college",
+			"email",
+			"            ",
+			"addstudent",
+			"addstur",
+			"mo",
+			"modif",
+			"edit",
+			"7",
+			"test",
+			"update",
+			");\n",
+			"word_warp",
+			"xyn0410",
+			"pass",
+			"user",
+			"password",
+			"username",
+			"//",
+			"\\\\",
+			"ereg",
+			"\\",
+			"//",
+			"\\\\",
+			"\\",
+			"/",
+			"name",
+			"robot",
+			"test",
+			"gettype",
+			"student",
+			"manager",
+			"}\n",
+			"this->session->get(\"manager\")",
+			"this->session->get(\"manager\");",
+			"this->session->get(\"manager\")",
+			"$this->session->get('manager')",
+			"backend",
+			"backendt",
+			"backend",
+			"$this->session->get(\"manager\")",
+			"backend",
+			"IP_ADDRESS",
+			"5",
+			"q_id",
+			"question",
+			"Question",
+			"question",
+			"q_id",
+			"options",
+			"questionmanager",
+			"manager",
+			"Manager",
+			"manager",
+			"phone",
+			"name",
+			"username",
+			"auth",
+			"id",
+			"email",
+			"phone"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"ushort",
+			"STRNCPY",
+			"category",
+			"regex",
+			"Regex",
+			"—",
+			"\\overline",
+			"\\frac",
+			"\\lambda",
+			"\\times",
+			"\\Delta",
+			" ",
+			"\n(",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ArduTiltrotor.pde",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 57768,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55779,
+								55779
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								223,
+								3,
+								7,
+								9,
+								7,
+								9,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"function_name_status_row": 1564,
+							"origin_encoding": "ASCII",
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 62785.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/sxf/桌面/致开课吧团队",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"auto_name": "致开课吧团队",
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								223,
+								3,
+								24,
+								19,
+								6,
+								6,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"function_name_status_row": 5,
+							"origin_encoding": "UTF-8",
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 70,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#To:wangaoxinplus@163.com",
+							"function_name_status_row": 2,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 47.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o:///home/sxf/data/workspace/Web/Question/app/controllers":
+	{
+		"height": 302.0
+	},
+	"output.GoSublime-main-output":
+	{
+		"height": 158.0
+	},
+	"output.GoSublime-output":
+	{
+		"height": 236.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 228.0
+	},
+	"output.coffee_compile_output":
+	{
+		"height": 158.0
+	},
+	"output.coffeecompile_output":
+	{
+		"height": 188.0
+	},
+	"output.exec":
+	{
+		"height": 254.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 158.0
+	},
+	"output.markdown":
+	{
+		"height": 164.0
+	},
+	"project": "ArduTiltrotor.sublime-project",
+	"replace":
+	{
+		"height": 90.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"lua.c"
+			],
+			[
+				"lapi",
+				"lapi.c"
+			],
+			[
+				"run",
+				"usr\\lib\\python2.4\\encodings\\raw_unicode_escape.py"
+			],
+			[
+				"ema",
+				"D:\\workspace\\Python\\Mail\\Email.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\workspace\\C\\lua-5.2.3\\src\\lua.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 472.0,
+		"selected_items":
+		[
+			[
+				"",
+				"run"
+			]
+		],
+		"width": 625.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

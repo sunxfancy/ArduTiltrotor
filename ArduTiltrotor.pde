@@ -158,7 +158,7 @@
 #include <AP_Terrain.h>
 
 
-#include <MotorsTiltrotor.h>
+#include "MotorsTiltrotor.h"
 
 
 // AP_HAL to Arduino compatibility layer
@@ -456,7 +456,7 @@ static struct {
 #elif FRAME_CONFIG == COAX_FRAME
  #define MOTOR_CLASS AP_MotorsCoax
 #elif FRAME_CONFIG == TILTROTOR_FRAME
- #define MoTOR_CLASS MotorsTiltrotor
+ #define MOTOR_CLASS MotorsTiltrotor
 #else
  #error Unrecognised frame type
 #endif
@@ -470,6 +470,7 @@ static MOTOR_CLASS motors(g.rc_1, g.rc_2, g.rc_3, g.rc_4, g.single_servo_1, g.si
 #elif FRAME_CONFIG == COAX_FRAME  // single constructor requires extra servos for flaps
 static MOTOR_CLASS motors(g.rc_1, g.rc_2, g.rc_3, g.rc_4, g.single_servo_1, g.single_servo_2);
 #elif FRAME_CONFIG == TILTROTOR_FRAME
+static MOTOR_CLASS motors(g.rc_1, g.rc_2, g.rc_3, g.rc_4, g.rc_5, g.rc_6);
 #else
 static MOTOR_CLASS motors(g.rc_1, g.rc_2, g.rc_3, g.rc_4);
 #endif

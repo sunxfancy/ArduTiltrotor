@@ -1,4 +1,4 @@
-/* 
+	/* 
 * @Author: sxf
 * @Date:   2015-01-22 17:02:34
 * @Last Modified by:   sxf
@@ -31,9 +31,6 @@ void MotorsTiltrotor::Init() {
 
 	// 初始化倾转因子
 	_tilt_factor = 1.0f;
-
-	// 初始化自动倾转标志
-	_auto_tilt = false;
 }
 
 void MotorsTiltrotor::setup_motors()
@@ -56,13 +53,13 @@ void MotorsTiltrotor::set_update_rate(uint16_t speed_hz)
 	_speed_hz = speed_hz;
 
 	// check each enabled motor
-	/* uint32_t mask = 0;
+	uint32_t mask = 0;
 	for (i = 0; i<MAX_NUM_MOTORS; i++) {
 		if (motor_enabled[i]) {
 			mask |= 1U << pgm_read_byte(&_motor_to_channel_map[i]);
 		}
-	}*/
-	hal.rcout->set_freq(get_motor_mask(), _speed_hz);
+	}
+	hal.rcout->set_freq(mask, _speed_hz);
 }
 
 // set frame orientation (normally + or X)
@@ -89,10 +86,10 @@ void MotorsTiltrotor::enable()
 	int8_t i;
 
 	// enable output channels
-	for (i = 0; i<8; i++) {
-		// if (motor_enabled[i]) {
+	for (i = 0; i<MAX_NUM_MOTORS; i++) {
+		if (motor_enabled[i]) {
 			hal.rcout->enable_ch(pgm_read_byte(&_motor_to_channel_map[i]));
-		// }
+		}
 	}
 }
 
@@ -117,9 +114,7 @@ void MotorsTiltrotor::output_min()
 	hal.rcout->write(pgm_read_byte(&_motor_to_channel_map[MOTORS_CH_AILERON]), _rc_roll.radio_trim);
 	hal.rcout->write(pgm_read_byte(&_motor_to_channel_map[MOTORS_CH_TAIL]), _rc_pitch.radio_trim);
 	hal.rcout->write(pgm_read_byte(&_motor_to_channel_map[MOTORS_CH_YAW]), _rc_yaw.radio_trim);
-	hal.rcout->write(pgm_read_byte(&_motor_to_channel_map[MOTORS_CH_TILTROTOR]), _rc_tiltrotor.radio_min);
-
-	tilt = _rc_tiltrotor.radio_min;
+	hal.rcout->write(pgm_read_byte(&_motor_to_channel_map[MOTORS_CH_TILTROTOR]), _rc_tiltrotor.radio_trim);
 }
 
 // get_motor_mask - returns a bitmask of which outputs are being used for motors (1 means being used)
@@ -147,24 +142,6 @@ void MotorsTiltrotor::output_armed()
 	int16_t rpy_high = 0;   // highest motor value
 	int16_t yaw_allowed;    // amount of yaw we can fit in
 	int16_t thr_adj;        // the difference between the pilot's desired throttle and out_best_thr_pwm (the throttle that is actually provided)
-
-	if (_rc_autotilt.radio_in - _rc_autotilt.radio_min > 
-		(_rc_autotilt.radio_max - _rc_autotilt.radio_min)*0.8 )
-		_auto_tilt = true;
-
-	if (_rc_autotilt.radio_in - _rc_autotilt.radio_min < 
-		(_rc_autotilt.radio_max - _rc_autotilt.radio_min)*0.2 )
-		_auto_tilt = false;
-
-	// 优先计算倾转因子
-
-	if (_auto_tilt) {
-		int16_t d = tilt - _rc_tiltrotor.radio_in;
-		if (-TILT_STEP < d && d < TILT_STEP) tilt =  _rc_tiltrotor.radio_in;
-		else if (d < 0) tilt += TILT_STEP;
-		else if (d > 0) tilt -= TILT_STEP;
-	}
-	_tilt_factor = 1.0f - sin((tilt - _rc_tiltrotor.radio_min)*0.5f*3.1415926f / (_rc_tiltrotor.radio_max - _rc_tiltrotor.radio_min));
 
 	// initialize limits flag
 	limit.roll_pitch = false;
@@ -372,75 +349,13 @@ void MotorsTiltrotor::output_armed()
 	}
 
 	////////////////////////////////////////
-	/// 自动倾转控制
-	////////////////////////////////////////
-
-	//_auto_tilt_old = _auto_tilt;
-
-	// 判断当前倾转状态
-
-/*	if (tilt - _rc_tiltrotor.radio_min > 
-		(_rc_tiltrotor.radio_max - _rc_tiltrotor.radio_min)*0.99 )
-		_status = MOTORS_STATUS_H;
-	if (tilt - _rc_tiltrotor.radio_min < 
-		(_rc_tiltrotor.radio_max - _rc_tiltrotor.radio_min)*0.01 )
-		_status = MOTORS_STATUS_V;
-*/
-
-
-	// 更新倾转状态，利用通道信号的变化来控制倾转方向
-/*
-	if (_auto_tilt == false && _auto_tilt_old == true && _status== MOTORS_STATUS_H) {
-		_status = MOTORS_STATUS_H2V;
-		_time = 0;
-	}
-
-	if (_auto_tilt == true && _auto_tilt_old == false && _status== MOTORS_STATUS_V) {
-		_status = MOTORS_STATUS_V2H;
-		_time = 0;
-	}
-
-	switch (_status) {
-		case MOTORS_STATUS_M:
-		break;
-		case MOTORS_STATUS_V:
-			tilt = _rc_tiltrotor.radio_min;
-		break;
-		case MOTORS_STATUS_H:
-			tilt = _rc_tiltrotor.radio_max;
-		break;
-		case MOTORS_STATUS_A:
-			tilt = _rc_tiltrotor.radio_min + (_rc_tiltrotor.radio_max - _rc_tiltrotor.radio_min)
-					* _time / TIME_MAX;
-			++_time;
-			if (_time == TIME_MAX)
-				_status = MOTORS_STATUS_H;
-		break;
-		case MOTORS_STATUS_H2V:
-			tilt = _rc_tiltrotor.radio_max - (_rc_tiltrotor.radio_max - _rc_tiltrotor.radio_min)
-					* _time / TIME_MAX;
-			++_time;
-			if (_time == TIME_MAX)
-				_status = MOTORS_STATUS_V;
-		break; 
-	}
-*/
-	////////////////////////////////////////
-	/// 计算副翼和尾翼
-	////////////////////////////////////////
-
-	int16_t ray_aileron = (_rc_roll.radio_out - _rc_roll.radio_trim)*(1.0f - _tilt_factor) + _rc_roll.radio_trim;
-	int16_t ray_tail = (_rc_pitch.radio_out - _rc_pitch.radio_trim)*(1.0f - _tilt_factor) + _rc_pitch.radio_trim;
-
-
-	////////////////////////////////////////
 	/// 现在输出所有舵机
 	////////////////////////////////////////
-	
-	hal.rcout->write(pgm_read_byte(&_motor_to_channel_map[MOTORS_CH_AILERON]), ray_aileron);
-	hal.rcout->write(pgm_read_byte(&_motor_to_channel_map[MOTORS_CH_TAIL]), ray_tail);
+
+	int16_t tilt = _rc_tiltrotor.radio_in;
+	_tilt_factor = 1.0f - sin((tilt - _rc_tiltrotor.radio_min)*0.5f*3.1415926f / (_rc_tiltrotor.radio_max - _rc_tiltrotor.radio_min));
 	hal.rcout->write(pgm_read_byte(&_motor_to_channel_map[MOTORS_CH_TILTROTOR]), tilt);
-	hal.rcout->write(pgm_read_byte(&_motor_to_channel_map[MOTORS_CH_YAW]), _rc_yaw.radio_out);
+	hal.rcout->write(pgm_read_byte(&_motor_to_channel_map[MOTORS_CH_YAW]), _rc_yaw.radio_out*_tilt_factor);
 }
 
 // output_disarmed - sends commands to the motors

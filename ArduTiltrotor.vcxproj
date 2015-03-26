@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{56AC9C6F-AD97-4324-99BC-B01014BF459B}</ProjectGuid>
+    <ProjectGuid>{89E813BB-F410-4851-8A88-131B6F570B5E}</ProjectGuid>
     <RootNamespace>ArduTiltrotor</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -64,6 +64,185 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="AP_State.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="ArduTiltrotor.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="Attitude.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="commands.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="commands_logic.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="compassmot.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="compat.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="control_acro.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="control_althold.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="control_auto.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="control_autotune.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="control_circle.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="control_drift.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="control_flip.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="control_guided.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="control_land.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="control_loiter.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="control_ofloiter.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="control_poshold.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="control_rtl.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="control_sport.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="control_stabilize.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="crash_check.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="ekf_check.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="events.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="failsafe.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="fence.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="flight_mode.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="GCS_Mavlink.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="heli.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="heli_control_acro.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="heli_control_stabilize.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="inertia.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="leds.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="Log.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="motors.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="MotorsTiltrotor.ino">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="motor_test.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="navigation.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="Parameters.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="perf_info.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="position_vector.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="radio.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="sensors.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="setup.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="switches.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="system.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="test.pde">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="UserCode.pde">
+      <FileType>CppCode</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="APM_Config.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="APM_Config_mavlink_hil.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="compat.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="config_channels.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="heli.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="MotorsTiltrotor.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Parameters.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="UserVariables.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

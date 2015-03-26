@@ -1,4 +1,2 @@
-ArduCopter README
-
-User Manual: http://copter.ardupilot.com/
-Developer Manual: http://dev.ardupilot.com/
+ArduTiltrotor 是项目的入口点，进行了简要的修改
+MotorsTiltrotor.h 和MotorsTiltrotor.ino 是新版发动机控制的实现类

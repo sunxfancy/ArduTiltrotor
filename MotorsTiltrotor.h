@@ -1,9 +1,7 @@
 /**
 * @Author: sxf
 * @Date:   2015-01-22 15:56:50
-* @Last Modified by:   ERROR: ld.so: object './sublime_text_fcitx.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
-sxf
-* @Last Modified time: 2015-01-24 23:50:59
+* @Last Modified time: 2015-03-08 11:06:15
 * @file MotorsTiltrotor.h
 * @brief 这是倾转旋翼机的专用发动机类
 */
@@ -15,6 +13,9 @@ sxf
 #include <AP_Math.h>        // ArduPilot Mega Vector/Matrix math Library
 #include <RC_Channel.h>     // RC Channel Library
 #include "AP_Motors.h"    // Parent Motors Matrix library
+
+// 定义发动机数量
+#define MAX_NUM_MOTORS 4
 
 // 定义舵机
 #define MOTORS_CH_AILERON    CH_5 // 副翼 aileron
@@ -34,10 +35,12 @@ public:
 		RC_Channel& rc_throttle,
 		RC_Channel& rc_yaw, 
 		RC_Channel& rc_tiltrotor,
+		RC_Channel& rc_autotilt,
 		uint16_t speed_hz = AP_MOTORS_SPEED_DEFAULT
 	):
 		AP_Motors(rc_roll, rc_pitch, rc_throttle, rc_yaw, speed_hz),
-		_rc_tiltrotor(rc_tiltrotor) 
+		_rc_tiltrotor(rc_tiltrotor),
+		_rc_autotilt(rc_autotilt)
 	{};
 
 	// init
@@ -93,16 +96,32 @@ protected:
 	float               _yaw_factor[AP_MOTORS_MAX_NUM_MOTORS];  // each motors contribution to yaw (normally 1 or -1)
 	uint8_t             _test_order[AP_MOTORS_MAX_NUM_MOTORS];  // order of the motors in the test sequence
     
+	float				_tilt_factor;	// 倾转时，倾转角度带来的控制影响
+
 //	RC_Channel&			_rc_aileron;	// 副翼的通道
 //	RC_Channel&         _rc_tail;       // REV parameter used from this channel to determine direction of tail servo movement
 //	RC_Channel&			_rc_yaw;		// 偏航
 	RC_Channel&			_rc_tiltrotor;  // 倾转
+	RC_Channel&			_rc_autotilt;   // 自动倾转控制
 
+	bool				_auto_tilt;
+	int16_t 			tilt;
+//	bool				_auto_tilt_old;
+//	char 				_status; 		// 自动倾转状态
+//	int16_t 			_time;
 };
 
+// 定义倾转状态
+/* 
+#define MOTORS_STATUS_M		 0 // 手动控制
+#define MOTORS_STATUS_V    	 1 // 垂直
+#define MOTORS_STATUS_H		 2 // 水平
+#define MOTORS_STATUS_V2H	 3 // 垂直转向水平
+#define MOTORS_STATUS_H2V	 4 // 水平转向垂直
+*/
 
-
-
+//#define TIME_MAX 			5000
+#define TILT_STEP		3
 #endif // MOTORS_TILTROTOR_H
 
 

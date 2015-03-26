@@ -5,6 +5,7 @@ void userhook_init()
 {
     // put your initialisation code here
     // this will be called once at start-up
+
 }
 #endif
 
@@ -12,6 +13,9 @@ void userhook_init()
 void userhook_FastLoop()
 {
     // put your 100Hz code here
+
+
+
 }
 #endif
 
