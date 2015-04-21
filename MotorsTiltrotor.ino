@@ -40,10 +40,10 @@ void MotorsTiltrotor::setup_motors()
 {
 	remove_all_motors();
 	// 这里第一个参数是发动机号，其次两个是滚转roll、俯仰pitch的参数，最后一个参数是测试排序
-	add_motor_raw(AP_MOTORS_MOT_1,	0.6,	0.6,	0,	1); // 左前
-	add_motor_raw(AP_MOTORS_MOT_2,	-0.6,	0.6,	0,	2); // 右前
-	add_motor_raw(AP_MOTORS_MOT_3,	1.0,	-1.0,	0,	3); // 左后
-	add_motor_raw(AP_MOTORS_MOT_4,	-1.0,	-1.0,	0,	4); // 右后
+	add_motor_raw(AP_MOTORS_MOT_1,	1.0,	-1.0,	-1.0,	1); // 左前
+	add_motor_raw(AP_MOTORS_MOT_2,	-1.0,	-1.0,	1.0,	2); // 右前
+	add_motor_raw(AP_MOTORS_MOT_3,	-1.0,	1.0,	-1.0,	3); // 右后
+	add_motor_raw(AP_MOTORS_MOT_4,	1.0,	1.0,	1.0,	4); // 左后	
 };
 
 
